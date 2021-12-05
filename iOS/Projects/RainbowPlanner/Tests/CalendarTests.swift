@@ -1,15 +1,15 @@
 //
-//  RootViewControllerTests.swift
-//  KakaoWebToonCopyTests
+//  CalendarTests.swift
+//  RainbowPlanner
 //
 //  Created by tilltue on 2020/12/11.
 //
 
-@testable import Hugging
+@testable import RainbowPlanner
 
 import XCTest
 
-final class RootViewControllerTests: XCTestCase {
+final class CalendarTests: XCTestCase {
     
     override func setUpWithError() throws {
         
@@ -17,5 +17,8 @@ final class RootViewControllerTests: XCTestCase {
     
     override func tearDownWithError() throws {
         
+    }
+    
+    func testLoadMonth() throws {
     }
 }
